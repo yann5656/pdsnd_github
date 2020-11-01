@@ -28,7 +28,7 @@ def get_filters():
         if(CITY_DATA.get(city.lower())):
             break
         else:
-            print('oops, no data available for: ',city.title())
+            print('sorry, no data available for: ',city.title())
 
     print('ok, {} selected'.format(city.title()))
 
