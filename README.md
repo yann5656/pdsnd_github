@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
-
+2020-11-01
 ### Project Title
-Replace the Project Title
+Udacity Bikeshare in GitHub
 
 ### Description
-Describe what your project is about and what it does
+Analyse data from Bikeshare in the cities
+Chicago, NewYork and washington.
+Compute statistics based on interaction with the user
 
 ### Files used
-Include the files used
+The statistics data are:
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+The statistic computation is done
+by a python script biekshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+udacity course
