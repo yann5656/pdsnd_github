@@ -30,9 +30,9 @@ def get_filters():
         if(CITY_DATA.get(city.lower())):
             break
         else:
-            print('oops, no data available for: ',city.title())
+            print('sorry, no data available for: ',city.title())
 
-    print('ok, {} selected'.format(city.title()))
+    print('ok, city: {} has been selected'.format(city.title()))
 
 
     # get user input for month (all, january, february, ... , june)
@@ -226,14 +226,14 @@ def display_time(time_in_sec):
     Returns:
         (str) time in nb_days, nb_hours, nb_min, nb_sec format
     """
-    days        = time_in_sec // 86400
+    nb_days        = time_in_sec // 86400
     remainder   = time_in_sec % 86400
     hours       = remainder // 3600
     remainder   = remainder % 3600
     minutes     = remainder // 60
     seconds     = remainder % 60
 
-    return '{} days, {} hours, {} min, {}s'.format(int(days), int(hours), int(minutes), int(seconds))
+    return '{} days, {} hours, {} min, {}s'.format(int(nb_days), int(hours), int(minutes), int(seconds))
 
 def show_data(df):
         """ ask user
