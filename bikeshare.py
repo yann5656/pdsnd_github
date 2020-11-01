@@ -30,7 +30,7 @@ def get_filters():
         else:
             print('sorry, no data available for: ',city.title())
 
-    print('ok, {} selected'.format(city.title()))
+    print('ok, city: {} has been selected'.format(city.title()))
 
 
     # get user input for month (all, january, february, ... , june)
