@@ -17,4 +17,4 @@ The statistic computation is done
 by a python script biekshare.py
 
 ### Credits
-udacity course
+udacity course. "Introduction to Version Control"
